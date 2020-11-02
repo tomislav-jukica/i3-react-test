@@ -1,0 +1,18 @@
+.Toolbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: lightsalmon;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+@media (max-width: 499px){
+    .DesktopOnly {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.Photo {    
+    display: inline-block;
+    margin: auto;
+    padding: 20px 0px;
+}
+.Photo img {
+    display: flex;
+    width: 400px;
+    height: 200px;
+}

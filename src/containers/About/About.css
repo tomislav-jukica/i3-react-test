@@ -1,0 +1,55 @@
+.About {
+    display: block;
+}
+
+.left {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+.left img {
+    width: 200px;
+    height: 200px;
+}
+
+.right .Photo img{
+    width: 400px;
+    height: 400px;
+}
+
+@media (min-width: 500px) {
+    .About {
+        display: flex;
+        
+    }
+    
+    .left {
+        width: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: auto;
+        float:left;
+    }
+    .left img {
+        width: 200px;
+        height: 200px;
+        padding: 0 12px
+    }
+    .right {
+        width: 40%;
+    }
+
+    .About > .right {
+        order: 2;
+    }
+    
+    .right .Photo img{
+        width: 400px;
+        height: 400px;
+    }
+    
+}

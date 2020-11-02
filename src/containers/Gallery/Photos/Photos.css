@@ -1,0 +1,15 @@
+.Photos {
+    width: 80%;
+    margin: auto;
+}
+
+.Photos h1 {
+    color: orangered;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: orangered;
+}
+

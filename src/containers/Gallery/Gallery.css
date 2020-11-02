@@ -1,0 +1,27 @@
+.Navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Gallery li {
+    display: inline-block;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+    .Gallery li {
+        display: inline-flex;
+    }
+    
+}
+
+
+
+
